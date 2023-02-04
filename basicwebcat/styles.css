@@ -1,0 +1,85 @@
+
+      body {
+        background-image: url("cat-image.jpg");
+        font-family: cursive;
+       
+        }
+
+      .principal {
+          width: 75%;
+          margin-left: auto;
+          margin-right: auto;
+          padding: 35px;
+          max-width: 80%;
+          box-shadow: 5 0 30px 0 darkgrey;
+          border-radius: 35px;
+          border: 3px solid #6b5625;
+          background: linear-gradient(#d6b474, #6b5625, #d4c5b0);
+          margin-top: 30px;
+
+        }
+
+      main {
+        text-align: center;
+      }
+
+      h1 {
+        margin-top: 5px;
+      }
+
+       figcaption{
+        font-size: 15px;
+      }
+
+      .alinhar{
+        text-align: center;
+        list-style-position: inside;
+      }
+
+      fieldset{
+        margin: 20px;
+        padding: 0 10px 10px;
+        border: 1px solid #666;
+        border-radius: 8px;
+        box-shadow: 0 0 10px #666;
+        padding-top: 10px;
+      }
+
+      button {
+        border-radius: 6px;
+        font-size: 12px;
+      }
+
+      button:hover{
+        background: black;
+        color: white;
+        transform: scale(1.2);
+        transition: 1s all;
+      }
+      button:active{
+        background: brown;
+        color: black;
+      }
+
+     
+
+      img {
+        border-radius: 15px;
+        box-shadow: 0 0 15px black;
+      }
+
+      .bordaum, .bordadois, .bordaprincipal{
+        border: 10px solid;
+        border-color: linear-gradient(180deg, #d6b478, #6b5627, #d4c5b1);
+        border-radius: 10px;
+        width: 100%;
+        margin-top: 10px;
+        padding-bottom: 30px;
+
+
+      }
+
+      footer {
+        text-align: center
+        ;
+      }
